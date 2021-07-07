@@ -10,6 +10,9 @@ import CategorySelection from "./components/CategorySelection";
 import NotFound from "./components/NotFound";
 import Nav from "./components/Nav";
 
+//Style sheet
+import "./style.css"
+
 function App() {
   const [store, dispatch] = useReducer(stateReducer, {
     categories: [],

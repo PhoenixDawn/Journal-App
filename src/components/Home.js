@@ -21,7 +21,7 @@ const Home = () => {
             <h2>{cat.name}</h2>
             {entries.map((entry) => {
               return (
-                <div key={entry.id}>
+                <div className="entry" key={entry.id}>
                   <p>{entry.content}</p>
                 </div>
               );
